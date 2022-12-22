@@ -639,6 +639,11 @@ footer .st-soc {
 	margin: 10px 0 0 0;
 }
 
+div .st-soc {
+	position: relative;
+	margin: 5px 0 0 0;
+}
+
 footer .st-soc a {
 	margin: 0 6px;
 	position: relative;
@@ -659,7 +664,27 @@ footer .st-soc a {
 	-khtml-border-radius: 36px;
 }
 
-footer .st-soc a .icon {
+div .st-soc a {
+	margin: 0 10px 0 0;
+	/* position: relative;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	border-radius: 36px;
+	-moz-border-radius: 36px;
+	-webkit-border-radius: 36px;
+	-khtml-border-radius: 36px; */
+}
+
+footer .st-soc a .icon, div .st-soc a .icon {
 	font-size: 18px;
 	color: #898989;
 	transition: all 0.4s ease 0s;
@@ -668,7 +693,7 @@ footer .st-soc a .icon {
 	-o-transition: all 0.4s ease 0s;
 }
 
-footer .st-soc a:hover .icon {
+footer .st-soc a:hover .icon, div .st-soc a:hover .icon {
 	color: #292929;
 }
 
