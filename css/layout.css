@@ -820,3 +820,8 @@ footer .st-soc a:hover .icon, div .st-soc a:hover .icon {
 	opacity: 0;
 }
 
+/*service paragraph*/
+#serviceParagraph{
+	color: black;
+	font-family: 'Eczar', helvetica;
+}
