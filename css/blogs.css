@@ -59,15 +59,17 @@
 
 .blog-items .blog-item .image img {
 	max-width: 100%;
+	border-radius: 5%;
 }
 
 .blog-items .blog-item .name {
 	display: block;
 	font-size: 19px;
 	line-height: 24px;
-	margin: 0 0 13px 0;
+	margin: 0 0 5px 0;
 	font-weight: 500;
 	color: #292929;
+	font-family: 'Hind', helvetica;
 }
 
 .blog-items .blog-item p {
