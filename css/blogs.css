@@ -46,6 +46,10 @@
 		font-weight: 700;
 	}
 
+	.blog-item {
+		margin-bottom: 30px;
+	}
+
 }
 
 .section.blog-single {
